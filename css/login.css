@@ -437,15 +437,11 @@ a:hover {
   .restaurant {
     width: 100%;
     margin-top: 20px;
+    display: block;
   }
   .restaurant-icon {
     width: 100%;
     margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-  .restaurant-icon img {
-    margin-left: 10px;
+    display: block;
   }
 }

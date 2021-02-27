@@ -232,6 +232,9 @@ a:hover {
   width: 100%;
   line-height: 25px;
 }
+.mobile-img {
+  display: none;
+}
 /* 好吃的秘訣 */
 .tasty-secret {
   width: 100%;
@@ -261,6 +264,9 @@ a:hover {
 .secret-card {
   width: 28%;
   text-align: center;
+}
+.secret-card  img{
+  width: 200px;
 }
 .card-title {
   width: 100%;
@@ -489,7 +495,7 @@ a:hover {
   .banner {
     background-image: url(../web/assets/Bitmap.png);
   }
-  .banner-title-row{
+  .banner-title-row {
     width: 100%;
   }
   .banner-title {
@@ -501,6 +507,12 @@ a:hover {
     padding-top: 20px;
     font-size: 2.25rem;
   }
+  .mobile-img {
+    display: block;
+  }
+  .pc-img {
+    display: none;
+  }
   /*好吃的秘訣*/
   .tasty-secret {
     padding: 50px 0 20px;
@@ -510,6 +522,10 @@ a:hover {
     padding: 0 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
+  }
+  .secret-card  img{
+    width: 200px;
+    margin: auto;
   }
   /*主廚*/
   .chef-row {
@@ -560,15 +576,11 @@ a:hover {
   .restaurant {
     width: 100%;
     margin-top: 20px;
+    display: block;
   }
   .restaurant-icon {
     width: 100%;
     margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-  .restaurant-icon img {
-    margin-left: 10px;
+    display: block;
   }
 }
