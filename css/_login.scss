@@ -1,0 +1,87 @@
+
+/* 登入 */
+.login {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  color: #3d1101;
+}
+.login-row {
+  margin-top: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.login-subhead {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: bold;
+}
+.login-form {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-top: 4px solid #ff5e45;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.438);
+  padding: 15px;
+}
+.login-title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.form {
+  position: relative;
+}
+.form a {
+  color: #ff5e45 !important;
+}
+.form a:hover {
+  opacity: 0.6;
+}
+.form-btn {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.registered-btn {
+  width: 45%;
+  background-color: #555555;
+  color: white;
+}
+.registered-btn:hover {
+  color: white;
+  opacity: 0.8;
+}
+.login-btn {
+  width: 45%;
+  background-color: #f56c23;
+  color: white;
+}
+.login-btn:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  
+  /* 登入 */
+  .login-row img {
+    width: 243px;
+  }
+
+  .login-form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-top: 4px solid #ff5e45;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.438);
+    padding: 15px;
+  }
+ 
+}

@@ -1,0 +1,216 @@
+
+/* 好吃的秘訣 */
+.tasty-secret {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  box-sizing: border-box;
+  background-color: #efe9e7;
+  color: #3d1101;
+}
+
+.secret-title {
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.secret-title h4 {
+  width: 100%;
+  text-align: center;
+}
+.secret {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.secret-card {
+  width: 28%;
+  text-align: center;
+}
+.secret-card  img{
+  width: 200px;
+}
+.card-title {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.125rem;
+}
+.card-content {
+  width: 100%;
+  margin-top: 11px;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 20px;
+}
+/* 主廚 */
+.chef {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background-color: #3d1101;
+  color: white;
+}
+.chef-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chef-row img {
+  width: 40%;
+  height: 100%;
+}
+.chef-introduction {
+  width: 60%;
+  height: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.chef-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.chef-depiction {
+  margin-top: 16px;
+  font-size: 1rem;
+  line-height: 25px;
+}
+/* 他人感想 */
+.another-thoughts {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  box-sizing: border-box;
+  background-color: #efe9e7;
+  color: #3d1101;
+}
+.thoughts-title {
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.thoughts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.thoughts-card {
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+}
+.thoughts-card img {
+  width: 67px;
+  height: 67px;
+}
+.thoughts-card .card-title {
+  font-size: 1.125rem;
+  margin-left: 13px;
+}
+.thoughts-card .card-title span {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  float: right;
+}
+
+/* 地圖 */
+.map {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  color: #3d1101;
+}
+.map-title {
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.map-row {
+  margin-top: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.map-row img {
+  width: 45%;
+  height: 100%;
+}
+.map-form {
+  width: 55%;
+  height: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.form {
+  position: relative;
+}
+.form-btn {
+  position: absolute;
+  right: 0;
+}
+.vegetarian-radio p {
+  margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+  
+  /*好吃的秘訣*/
+  .tasty-secret {
+    padding: 50px 0 20px;
+  }
+  .secret-card {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  .secret-card  img{
+    width: 200px;
+    margin: auto;
+  }
+  /*主廚*/
+  .chef-row {
+    width: 100%;
+    display: block;
+  }
+  .chef-row img {
+    width: 100%;
+    height: 100%;
+  }
+  .chef-introduction {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .chef-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  /* 他人感想 */
+  .thoughts-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* 地圖 */
+  .map-row img {
+    width: 100%;
+  }
+  .map-form {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+  }
+}
